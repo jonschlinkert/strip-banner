@@ -1,7 +1,28 @@
 {
   "name": "strip-banner",
+  "description": "Strip banners from code.",
+  "repository": "jonschlinkert/strip-banner",
+  "license": "MIT",
+  "homepage": "https://github.com/jonschlinkert/strip-banner",
+  "authors": [
+    "Jon Schlinkert (https://github.com/jonschlinkert)"
+  ],
   "main": [
     "index.js"
   ],
-  "version": "0.1.1"
+  "dependencies": {
+    "extract-banner": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "banner",
+    "banners",
+    "comment",
+    "comments",
+    "remove",
+    "strip"
+  ]
 }
